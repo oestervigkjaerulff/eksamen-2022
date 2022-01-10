@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  color: #80786d;
+  padding: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*************************** MOBIL **************************/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #93a19f;
+  }
+  /* splashbillede */
+
+  #first_section {
+    background-image: url(billeder/splashmedstreg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 11% 10%;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  /* Header position */
+  #first_section ul {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900px;
+    font-size: 70px;
+    list-style-type: none;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    align-self: flex-end;
+  }
+
+  nav a:hover {
+    color: orange;
+  }
+
+  nav ul a {
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  /* Baggrundsfarve */
+  .background-color {
+    background-color: #93a19f;
+    position: absolute;
+    margin: -12px;
+  }
+
+  #second_section p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 30px;
+  }
+}
+
+/******************************* TABLET *****************************/
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #93a19f;
+  }
+  /* splashbillede */
+
+  #first_section {
+    background-image: url(billeder/splashmedstreg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 11% 10%;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  /* Header position */
+  .links {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 900px;
+    font-size: 70px;
+    list-style-type: none;
+    position: absolute;
+    top: 65px;
+    left: 550px;
+    align-self: flex-end;
+    place-content: center;
+  }
+
+  nav a:hover {
+    color: orange;
+  }
+
+  nav ul a {
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+  }
+  /* Baggrundsfarve */
+  .background-color {
+    background-color: #93a19f;
+    position: absolute;
+  }
+
+  #second_section p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 30px;
+    font-size: 30px;
+  }
+}
+/*********************************** WEB **********************************/
+
+@media only screen and (min-width: 990px) {
+  body {
+    background-color: #93a19f;
+  }
+  /* splashbillede */
+
+  #first_section {
+    background-image: url(billeder/splashmedstreg.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 11% 10%;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 4fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  /* Header position */
+  .links {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 100px;
+    list-style-type: none;
+    position: relative;
+    top: 65px;
+    left: 700px;
+    align-self: flex-end;
+    place-content: center;
+  }
+
+  nav a:hover {
+    color: orange;
+  }
+
+  nav ul a {
+    font-family: "Chakra Petch", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 45px;
+  }
+
+  /* Baggrundsfarve */
+  .background-color {
+    background-color: #93a19f;
+    position: absolute;
+    margin: -12px;
+  }
+
+  #second_section p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 30px;
+  }
+}
