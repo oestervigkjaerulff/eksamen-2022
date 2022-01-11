@@ -5,9 +5,11 @@
 }
 
 footer {
-  color: #80786d;
+  color: black;
   padding: 20px;
   font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  padding-top: 200px;
 }
 
 /*************************** MOBIL **************************/
