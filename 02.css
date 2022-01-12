@@ -147,7 +147,6 @@ footer {
   .third_section .knap {
     width: 120px;
     height: 50px;
-    background-color: orange;
     color: #d9d1cc;
     overflow: hidden;
     grid-row: 4;
@@ -290,17 +289,9 @@ footer {
     margin-left: 6px;
   }
 
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
   .third_section .knap {
     width: 120px;
     height: 50px;
-    background-color: orange;
     color: white;
     overflow: hidden;
     grid-row: 4;
@@ -448,24 +439,9 @@ footer {
     margin-bottom: 200px;
   }
 
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
   .third_section .knap {
     width: 200px;
     height: 100px;
-    background-color: orange;
     color: white;
     overflow: hidden;
     grid-row: 4;

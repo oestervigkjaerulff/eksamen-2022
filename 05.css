@@ -139,14 +139,11 @@ footer {
   }
 
   .third_section .knap {
-    width: 120px;
-    height: 50px;
-    background-color: orange;
     color: #d9d1cc;
     overflow: hidden;
     grid-row: 4;
     grid-column: 2;
-    margin-left: 160px;
+    margin-left: 16px;
   }
 
   .third_section img {
@@ -265,7 +262,7 @@ footer {
   }
 
   .second_section p {
-   color: white;
+    color: white;
     font-family: "Courier New", Courier, monospace;
     line-height: 30px;
     padding-left: 20px;
@@ -284,17 +281,10 @@ footer {
     margin-left: 6px;
   }
 
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
   .third_section .knap {
     width: 120px;
     height: 50px;
-    background-color: orange;
+
     color: white;
     overflow: hidden;
     grid-row: 4;
@@ -315,7 +305,7 @@ footer {
 /******************************* WEB *****************************/
 
 @media only screen and (min-width: 990px) {
-     header nav ul {
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -422,7 +412,7 @@ footer {
     place-content: start;
   }
 
-   .second_section p {
+  .second_section p {
     color: white;
     font-family: "Courier New", Courier, monospace;
     line-height: 40px;
@@ -433,7 +423,7 @@ footer {
     font-size: 30px;
   }
 
-   .third_section {
+  .third_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -441,24 +431,10 @@ footer {
     margin-bottom: 200px;
   }
 
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
-  .third_section .website {
-    max-width: fit-content;
-    grid-row: 4;
-    grid-column: 3;
-    margin-left: 50px;
-  }
-
   .third_section .knap {
+    
     width: 200px;
     height: 100px;
-    background-color: orange;
     color: white;
     overflow: hidden;
     grid-row: 4;
