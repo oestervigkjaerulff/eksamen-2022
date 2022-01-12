@@ -35,7 +35,7 @@ footer {
   /* Header position */
   #first_section ul {
     font-family: "Chakra Petch", sans-serif;
-    font-weight: 900px;
+    
     font-size: 70px;
     list-style-type: none;
     position: absolute;
@@ -70,6 +70,10 @@ footer {
     font-family: "Courier New", Courier, monospace;
     line-height: 30px;
   }
+
+  #second_section img {
+    width: 50%;
+  }
 }
 
 /******************************* TABLET *****************************/
@@ -95,7 +99,7 @@ footer {
   /* Header position */
   .links {
     font-family: "Chakra Petch", sans-serif;
-    font-weight: 900px;
+    
     font-size: 70px;
     list-style-type: none;
     position: absolute;
@@ -122,14 +126,18 @@ footer {
   }
 
   #second_section p {
-    color: white;
+     color: white;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 60px;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     line-height: 30px;
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+   #second_section img {
+    width: 50%;
   }
 }
 /*********************************** WEB **********************************/
@@ -189,6 +197,12 @@ footer {
     margin-top: 60px;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-    line-height: 30px;
+    line-height: 45px;
+    font-size: 30px;
+  }
+
+  #second_section img {
+    width: 30%;
+    
   }
 }

@@ -69,6 +69,26 @@ footer {
     font-size: 58px;
   }
 
+  #fourth_section p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  #fourth_section h1 {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 58px;
+  }
+
   #third_section p {
     color: white;
     font-family: "Courier New", Courier, monospace;
@@ -150,6 +170,27 @@ footer {
     text-align: center;
     font-size: 20px;
   }
+
+  #fourth_section h1 {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 73px;
+  }
+
+  #fourth_section p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
 /**************** WEB **********************/
@@ -213,6 +254,27 @@ footer {
   }
 
   #third_section p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #fourth_section h1 {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 90px;
+  }
+
+  #fourth_section p {
     color: white;
     font-family: "Courier New", Courier, monospace;
     line-height: 40px;
